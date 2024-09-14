@@ -1,0 +1,1 @@
+gcc main.c .\lib\gopher\*.c .\lib\arena\*.c -I.\lib\gopher -I.\lib\arena  -lraylib -lopengl32 -lgdi32 -lwinmm -lws2_32 -lwsock32 -o main.exe 
